@@ -8,12 +8,6 @@ public class Car {
     private int number;
     private String owner;
 
-    public static final List<Car> carList = new ArrayList<>(List.of(new Car("Honda",25677,"Lex Luthor"),
-            new Car("BMW",13656,"Bruce Wayne"),
-            new Car("Mazda",11524,"James Gordon"),
-            new Car("Audi",13320,"Mark Spector"),
-            new Car("Ford",11177,"Henry Ford")));
-
     public Car(String model, int number, String owner) {
         this.model = model;
         this.number = number;
